@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cocacola</title>
+    <!-- fullpage 플러그인 CSS(필수) -->
+    <link rel="stylesheet" href="./script/jquery.fullPage.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+<body>
+    <div id="main"><!-- #wrap 이름은 변경 가능! -->
+        <!-- div.section 형제구성은 fullpage 필수구조 -->
+        <div class="section">1</div>
+        <div class="section">2</div>
+        <div class="section">3</div>
+        <div class="section">4</div>
+    </div>
+</body>
+    <!-- fullpage 플러그인 JS(필수) -->
+    <!-- cdnjs jquery 주소파일이 먼저 작성되어 있어야 함 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src="./script/jquery.fullPage.js"></script>
+    <script>
+        /* .section형제의 부모대상 */
+            $('#main').fullpage({
+            scrollBar:true, // 스크롤바 표시 유무 true false
+            /* scrollingSpeed:1000,  */// 스크롤 속도
+            navigation:true, // 우측 내비게이션 유무
+            navigationTooltips:['HOME','PROFILE','SKILL','WEB_REDESIGN'], //페이지명
+            showActiveTooltip:false, // 페이지 이동시 자동으로 tooltip보이기
+        })
+    </script>
+</html>
