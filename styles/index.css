@@ -1,0 +1,119 @@
+
+/* main */
+main {}
+main #main {}
+main #main .section {width:100%; height:100vh;}
+/* main 공통 영역 */
+/* main txt h1 50px 영역 */
+main #main .section .txt_l h1 {font-size: 3.125rem; font-weight: 700; line-height:75px;}
+main #main .section .txt_l p {font-size: 1.875rem; line-height:45px;}
+/* main txt h2 37px 영역 */
+main #main .section .txt_m h2 {font-size: 2.1rem; font-weight: 700;}
+main #main .section .txt_m p {font-size: 1.33rem; line-height: 2.2rem; }
+/* view_more_btn 공통 디자인 */
+* .view_more_btn {padding:15px; display:flex; align-items:center; display:inline-block;}
+* .view_more_btn span {font-size: 1.3125rem; font-weight: 700;}
+* .view_more_btn img {width:15px; height:15px; margin-left:10px;}
+* .w_r {background: #fff;}
+* .w_b {background: #fff; color:#222; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);}
+
+/* main #main .section .txt_l .view_more_btn {padding:20px 15px;}
+main #main .section .txt_l .view_more_btn span {font-size: 1.3125rem; font-weight: 700;}
+main #main .section .txt_l .view_more_btn img {width:15px; height:15px;}
+main #main .section .txt_m .view_more_btn {padding:20px 15px;}
+main #main .section .txt_m .view_more_btn span {font-size: 1.3125rem; font-weight: 700;}
+main #main .section .txt_m .view_more_btn img {width:15px; height:15px;} */
+/* main 1 */
+main #main #main_1 {position:relative; overflow:hidden; }
+main #main #main_1 .txt_l {width:100%; position:absolute; z-index: 888; bottom:10%; left:10%;}
+main #main #main_1 .txt_l h1 {}
+main #main #main_1 .txt_l h1 img {}
+main #main #main_1 .txt_l p {color:#fff; margin-bottom:30px;}
+main #main #main_1 .txt_l a {border:1px solid #fff;  color:#fff; }
+main #main #main_1 .txt_l a img {}
+main #main #main_1 video {width:100%; position:absolute; top:0; left:50%; transform:translateX(-50%);} 
+/* main 2 */
+main #main #main_2 {background:url(../images/main2_bnr.jpg) no-repeat; background-size:cover;}
+main #main #main_2 .txt_l {display:flex; flex-flow:column nowrap; align-items: flex-end; padding-right:10%;}
+main #main #main_2 .txt_l {color:#fff;}
+main #main #main_2 .txt_l h1 {}
+main #main #main_2 .txt_l p {margin:30px 0; font-size: 1.75rem; line-height:45px;}
+main #main #main_2 .txt_l a {color:#bf0000;}
+main #main #main_2 .txt_l a span {}
+main #main #main_2 .txt_l a img {}
+/* main 3 */
+main #main #main_3 {}
+main #main #main_3 .main_3_bg {height:100vh;
+    background: url(../images/coca_bg_10.png) center no-repeat; background-size:cover;
+    display:flex; justify-content:center; align-items:center; padding:0 30px;
+}
+main #main #main_3 .main_3_bg .main_3_img {text-align:center;}
+main #main #main_3 .main_3_bg .main_3_img img {width:80%;}
+main #main #main_3 .main_3_bg .txt_l { width:70%; }
+main #main #main_3 .main_3_bg .txt_l h1 {}
+main #main #main_3 .main_3_bg .txt_l p {margin:30px 0;}
+main #main #main_3 .main_3_bg .txt_l a {}
+main #main #main_3 .main_3_bg .txt_l a span {}
+main #main #main_3 .main_3_bg .txt_l a img {}
+/* main 4 공통 */
+main #main #main_4 {}
+main #main #main_4 .main_4_bnr_wrap {}
+main #main #main_4 .main_4_bnr_wrap ul {display:flex; flex-flow:row wrap;}
+main #main #main_4 .main_4_bnr_wrap ul li {}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m {}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m h2 {}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m p {margin:20px 0;}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m a {}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m a span {}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m a img {}
+/* main 4 개별 */
+main #main #main_4 .main_4_bnr_wrap ul li {
+    background-repeat:no-repeat; background-size:cover; 
+    width:50%; height:50vh;
+}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_1 {background-image:url(../images/food_bnr.jpg);}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_2 {background-image:url(../images/zero_bnr.jpg);}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_3 {background-image:url(../images/recipe_bnr2-1.jpg);}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_4 {background-image:url(../images/sports_bnr2-2.jpg);}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_1 .txt_m {padding:150px 0 0 100px;}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_2 .txt_m {padding:200px 0 0 600px;}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_3 .txt_m {padding:360px 0 0 80px;}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_2 .txt_m {padding:200px 0 0 600px;}
+/* main 5 */
+main #main #main_5 {}
+main #main #main_5 .top {}
+main #main #main_5 .top .txt_m {}
+main #main #main_5 .top .txt_m h2 {}
+main #main #main_5 .top .txt_m p {}
+main #main #main_5 .top .txt_m a {}
+main #main #main_5 .top .txt_m a span {}
+main #main #main_5 .top .txt_m a img {}
+main #main #main_5 .btm {}
+main #main #main_5 .btm ul {}
+main #main #main_5 .btm ul li {}
+main #main #main_5 .btm ul li a {}
+main #main #main_5 .btm ul li a img {}
+
+/* 반응형 */
+@media screen and (max-width:1254px) {
+    main #main .section .txt_l h1 {font-size: 2.222rem; font-weight: 700; line-height:55px;}
+    main #main .section .txt_l p {font-size: 1.33rem; line-height:35px;}
+}
+
+@media screen and (max-width:972px) {
+    main #main .section .txt_l h1 {font-size: 1.77rem; line-height:45px; font-weight: 700;}
+    main #main .section .txt_l p {font-size: 1.33rem; line-height:35px;}
+    main #main #main_3 .main_3_bg {display:flex; flex-flow:column nowrap; justify-content:center; align-items:center;}
+    main #main #main_3 .main_3_bg .txt_l {margin-top:30px;}
+    main #main #main_3 .main_3_bg .txt_l h1 {font-size: 1.75rem; line-height:40px; font-weight: 700;}
+    main #main #main_3 .main_3_bg .txt_l p {margin:20px 0; font-size: 1rem;}
+    main #main #main_3 .main_3_bg .main_3_img img {width:60%; }
+    * .view_more_btn span {font-size: 1rem; font-weight: 700;}
+    * .view_more_btn img {width:15px; height:15px; margin-left:10px;}
+}
+@media screen and (max-width:620px) {
+    main #main .section .txt_l h1 {font-size: 1.33rem; line-height:35px; font-weight: 700;}
+    main #main .section .txt_l p {font-size: 1rem; line-height:25px;}
+    main #main #main_3 .main_3_bg .txt_l h1 {font-size: 1.33rem; line-height:35px; font-weight: 700;}
+    main #main #main_3 .main_3_bg .txt_l p {margin:20px 0; font-size: 1rem;}
+}
