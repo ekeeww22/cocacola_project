@@ -14,7 +14,7 @@ main #main .section .txt_m p {font-size: 1.33rem; line-height: 2.2rem; }
 * .view_more_btn {padding:15px; display:flex; align-items:center; display:inline-block;}
 * .view_more_btn span {font-size: 1.3125rem; font-weight: 700;}
 * .view_more_btn img {width:15px; height:15px; margin-left:10px;}
-* .w_r {background: #fff;}
+* .w_r {background: #fff; color:#bf0000;}
 * .w_b {background: #fff; color:#222; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);}
 
 /* main #main .section .txt_l .view_more_btn {padding:20px 15px;}
@@ -77,22 +77,22 @@ main #main #main_4 .main_4_bnr_wrap ul .main_4_3 {background-image:url(../images
 main #main #main_4 .main_4_bnr_wrap ul .main_4_4 {background-image:url(../images/sports_bnr2-2.jpg);}
 main #main #main_4 .main_4_bnr_wrap ul .main_4_1 .txt_m {padding:150px 0 0 100px;}
 main #main #main_4 .main_4_bnr_wrap ul .main_4_2 .txt_m {padding:200px 0 0 600px;}
-main #main #main_4 .main_4_bnr_wrap ul .main_4_3 .txt_m {padding:360px 0 0 80px;}
-main #main #main_4 .main_4_bnr_wrap ul .main_4_2 .txt_m {padding:200px 0 0 600px;}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_3 .txt_m {padding:280px 0 0 80px;}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_4 .txt_m {padding:280px 0 0 80px;}
 /* main 5 */
-main #main #main_5 {}
-main #main #main_5 .top {}
-main #main #main_5 .top .txt_m {}
-main #main #main_5 .top .txt_m h2 {}
-main #main #main_5 .top .txt_m p {}
+main #main #main_5 {height:100vh;}
+main #main #main_5 .top {height:50vh; background:url(../images/main5_top_bnr.jpg) center 10% no-repeat; background-size:cover;}
+main #main #main_5 .top .txt_m {color:#fff; padding:10% 0 0 10%; }
+main #main #main_5 .top .txt_m h2 {text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);}
+main #main #main_5 .top .txt_m p {margin:30px 0; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75); }
 main #main #main_5 .top .txt_m a {}
 main #main #main_5 .top .txt_m a span {}
 main #main #main_5 .top .txt_m a img {}
-main #main #main_5 .btm {}
-main #main #main_5 .btm ul {}
+main #main #main_5 .btm {height:60vh; background: #D10F0F;}
+main #main #main_5 .btm ul {display:flex; flex-flow:row wrap; justify-content:center; padding-top:80px; }
 main #main #main_5 .btm ul li {}
 main #main #main_5 .btm ul li a {}
-main #main #main_5 .btm ul li a img {}
+main #main #main_5 .btm ul li a img {width:320px; height:320px;}
 
 /* 반응형 */
 @media screen and (max-width:1254px) {

@@ -1,0 +1,56 @@
+/* main */
+main {width:100%;}
+/* top 배너 */
+main #top_bnr {
+    height:500px;
+    background:url(../images/company_top_bnr.jpg) no-repeat; background-size:cover;
+}
+main #top_bnr h1 {
+    text-align:center; line-height:500px;
+    color: #FFF; font-size: 3.5rem; font-weight: 700; text-shadow: 0px 5px 1px rgba(0, 0, 0, 0.40);}
+/* contents */
+main #contents {max-width:1400px; margin:0 auto;}
+main #contents h2 {font-size: 2.5rem; font-weight: 700; padding:120px 0 110px;}
+main #contents img {width:600px; }
+main #contents p {font-size: 1.33rem; line-height: 35px; margin:50px 0;}
+main #contents .history_link {
+    width:370px; 
+    display:flex; flex-flow:row nowrap; align-items:center; 
+    background:#d50000; color:#fff; padding:18px 25px;}
+main #contents .history_link span {padding-right:10px; font-size: 1.33rem; color:#fff;}
+main #contents .history_link img {width:20px;}
+/* btm 배너 */
+main #btm_bnr {margin:50px 0 100px;}
+/* 공통영역 */
+main #btm_bnr > div > .txt {padding-top:60px;}
+main #btm_bnr > div > .txt .title h3 {font-size:2.369rem; font-weight:700;}
+main #btm_bnr > div > .txt p {font-size:1.77rem; line-height:45px; margin:30px 0;}
+/* 배너 1 */
+main #btm_bnr > div {height:400px; background-repeat:no-repeat; background-size:cover;}
+main #btm_bnr .bnr1 {background-image:url(../images/company_bnr1.png);}
+main #btm_bnr .bnr1 .txt {transform:translateX(50%);}
+main #btm_bnr .bnr1 .txt .title {}
+main #btm_bnr .bnr1 .txt .title h3 {}
+main #btm_bnr .bnr1 .txt p {}
+main #btm_bnr .bnr1 .txt .w_b {}
+/* 배너 2 */
+main #btm_bnr .bnr2 {background-image:url(../images/company_bnr2.png);}
+main #btm_bnr .bnr2 .txt {text-align:right; transform:translateX(-50%);}
+main #btm_bnr .bnr2 .txt .title {}
+main #btm_bnr .bnr2 .txt .title h3 {}
+main #btm_bnr .bnr2 .txt p {}
+main #btm_bnr .bnr2 .txt .w_b {}
+/* 배너 3 */
+main #btm_bnr .bnr3 {background-image:url(../images/company_bnr3.png);}
+main #btm_bnr .bnr3 .txt {transform:translateX(50%);}
+main #btm_bnr .bnr3 .txt .title {}
+main #btm_bnr .bnr3 .txt .title h3 {}
+main #btm_bnr .bnr3 .txt p {}
+main #btm_bnr .bnr3 .txt .w_b {}
+/* 배너 4 */
+main #btm_bnr .bnr4 {background-image:url(../images/company_bnr4.png);}
+main #btm_bnr .bnr4 .txt {text-align:right; transform:translateX(-50%);}
+main #btm_bnr .bnr4 .txt .title {}
+main #btm_bnr .bnr4 .txt .title h3 {}
+main #btm_bnr .bnr4 .txt p {}
+main #btm_bnr .bnr4 .txt .w_b {}
