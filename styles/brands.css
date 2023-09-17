@@ -1,57 +1,81 @@
-main #video .tab_title {margin-bottom:30px;}
-main #video .tab_title a {padding:20px 35px; display: inline-block;}
-/* 탭 제목 활성화 디자인 + js class 호출용 */
-main #video .tab_title a.active {border-bottom:5px solid rgb(0, 153, 255);}
-
-/* 자주사용하는 메뉴 - 탭제목 */
-main #menu .tab_title {display:flex; justify-content:center; border-bottom:1px solid #888;}
-main #menu .tab_title a {
-    width:160px; padding:15px 0; margin-right:10px; background:lime; position:relative; bottom:-1px;border:1px solid #ccc; background:#fff; border-bottom:1px solid #888;}
-main #menu .tab_title a:last-child {margin-right:0;}
-/* 탭 제목 활성화 디자인 + js class 호출용 */
-main #menu .tab_title a.active {
-    border:1px solid #888; border-bottom:1px solid #fff; border-top:5px solid rgb(0, 153, 255);}
-/* 자주사용하는 메뉴 - 내용 */
-
 
 /* main */
-main {}
-main #top_bnr {}
-main #top_bnr h1 {}
+main {width:100%;}
+/* top 배너 */
+main #top_bnr {
+    max-height:500px;
+    background:url(../images/company_top_bnr.jpg) no-repeat; background-size:cover;
+}
+main #top_bnr h1 {
+    text-align:center; line-height:500px;
+    color: #FFF; font-size: 3.5rem; font-weight: 700; text-shadow: 0px 5px 1px rgba(0, 0, 0, 0.40);}
+/* 공통영역 */
+main #category, main #all_brands {max-width:1300px; margin:0 auto;}
+/* 카테고리 */
 main #category {}
-main #category .tab_title {}
-main #category .tab_title a {}
-main #category .tab_title .active {}
-main #category .tab_title_bnr {}
-main #category .tab_title_bnr .txt_wrap {}
-main #category .tab_title_bnr .txt_wrap .num {}
-main #category .tab_title_bnr .txt_wrap .txt {}
-main #category .tab_title_bnr .txt_wrap .txt em {}
-main #category .tab_title_bnr .txt_wrap .txt span {}
-main #category .tab_title_bnr .drink_wrap {}
-main #category .tab_title_bnr .drink_wrap > div {}
-main #category .tab_title_bnr .drink_wrap > div > .img {}
-main #category .tab_title_bnr .drink_wrap > div > .img img {}
-main #category .tab_title_bnr .drink_wrap > div > p {}
+main #category .tab_title {margin:100px 0 80px; display:flex; justify-content:center; border-bottom:1px solid #888;}
+main #category .tab_title a {
+    font-size:1.33rem; font-weight: 700; padding:20px 35px; display:inline-block; margin-right:10px; position:relative; bottom:-1px; border:1px solid #ccc; background: #fff; border-bottom:1px solid #888;
+}
+main #category .tab_title a:last-child {margin-right:0;}
+main #category .tab_title .active {
+    border:1px solid #888; border-bottom:1px solid #fff; border-top:10px solid #ff0000;
+}
+/* 탭 컨텐츠 */
+main #category .tab_contents {}
+/* 스파클링 */
+main #category .tab_contents .tab_c1 {}
+main #category .tab_contents .tab_c1 .tab_title_bnr {height:300px; background:url(../images/tab_title_bnr.jpg) no-repeat;}
+main #category .tab_contents .tab_c1 .tab_title_bnr .txt_wrap {display:flex; align-items:center; color:#fff; position: relative; top:110px; left:5%;}
+main #category .tab_contents .tab_c1 .tab_title_bnr .txt_wrap .num {font-size: 5.5rem; font-weight: 700; margin-right:10px;}
+main #category .tab_contents .tab_c1 .tab_title_bnr .txt_wrap .txt {display:flex; flex-flow:column nowrap; justify-content:center;}
+main #category .tab_contents .tab_c1 .tab_title_bnr .txt_wrap .txt em {font-size: 1.85rem; font-weight: 700; margin-bottom:15px;}
+main #category .tab_contents .tab_c1 .tab_title_bnr .txt_wrap .txt span {font-size:1.33rem;}
+main #category .tab_contents .tab_c1 .drink_wrap {display:flex; flex-flow:row wrap; justify-content:center; position: relative; top:-120px;}
+main #category .tab_contents .tab_c1 .drink_wrap a { margin-right:100px;}
+main #category .tab_contents .tab_c1 .drink_wrap a:last-child { margin-right:0;}
+main #category .tab_contents .tab_c1 .drink_wrap a .img {transition:transform 0.5s; transform-origin:right bottom;}
+main #category .tab_contents .tab_c1 .drink_wrap a .img:hover {transform:rotate(15deg);}
+main #category .tab_contents .tab_c1 .drink_wrap a .img img {height:380px;}
+main #category .tab_contents .tab_c1 .drink_wrap a p {text-align:center; font-size: 1.33rem; font-weight: 500; margin-top:20px;}
+/* 스포츠 드링크 */
+main #category .tab_contents .tab_c2 {}
+main #category .tab_contents .tab_c2 .tab_title_bnr {}
+main #category .tab_contents .tab_c2 .tab_title_bnr .txt_wrap {}
+main #category .tab_contents .tab_c2 .tab_title_bnr .txt_wrap .num {}
+main #category .tab_contents .tab_c2 .tab_title_bnr .txt_wrap .txt {}
+main #category .tab_contents .tab_c2 .tab_title_bnr .txt_wrap .txt em {}
+main #category .tab_contents .tab_c2 .tab_title_bnr .txt_wrap .txt span {}
+main #category .tab_contents .tab_c2 .drink_wrap {}
+main #category .tab_contents .tab_c2 .drink_wrap div {}
+main #category .tab_contents .tab_c2 .drink_wrap div .img {}
+main #category .tab_contents .tab_c2 .drink_wrap div .img img {}
+main #category .tab_contents .tab_c2 .drink_wrap div p {}
 /* 소개 영역 */
-main #intro {}
-main #intro .left {}
+main #intro {
+    height:700px; margin:100px 0 80px; padding:100px 0; background:#F4F4F4; display:flex; justify-content:center;}
+main #intro .left {margin-right:100px;}
 main #intro .left h2 {}
-main #intro .left h2 img {}
-main #intro .left > div {}
-main #intro .left > div p {}
-main #intro .left .bg_300 {}
-main #intro .left .bg_200 {}
-main #intro .left .bg_50 {}
-main #intro .left .bg_20 {}
-main #intro .right {}
-main #intro .right img {}
-main #intro .right span {}
-main #intro .right .w_b {}
+main #intro .left h2 img {height:50px;}
+main #intro .left > div {height:55px; background-repeat:no-repeat; margin-top:40px;}
+main #intro .left > div p {font-size:1.33rem; font-weight: 500; position: relative; top:35px;}
+main #intro .left .bg_300 {background-image:url(../images/bg_130.png); }
+main #intro .left .bg_200 {background-image:url(../images/bg_200.png); }
+main #intro .left .bg_50 {background-image:url(../images/bg_50.png); }
+main #intro .left .bg_20 {background-image:url(../images/bg_20.png); }
+main #intro .right {display:flex; flex-flow:column nowrap; align-items: flex-start; }
+main #intro .right img {height:360px;}
+main #intro .right > span {font-size:1.33rem; text-decoration-line: underline; margin:30px 0;}
+main #intro .right .more_btn {padding:15px; display:flex; align-items:center; display:inline-block; background: #fff; color:#222; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);}
+main #intro .right .more_btn  span {font-size: 1.3125rem; font-weight: 700;}
+main #intro .right .more_btn  img {width:15px; height:15px; margin-left:10px;}
+
+/* 브랜드 전체보기 */
 main #all_brands  {}
-main #all_brands .title  {}
-main #all_brands .contents  {}
-main #all_brands .contents a  {}
-main #all_brands .contents a img  {}
+main #all_brands .title {height:45px; background:url(../images/brand_bg.png) no-repeat;}
+main #all_brands .title p { font-size:1.77rem; font-weight: 700; position: relative; top:30px; left:20px;}
+main #all_brands .contents  {display:flex; flex-flow:row wrap;  justify-content:space-around; margin:50px 0 100px;}
+main #all_brands .contents a  {width:320px; display:flex; flex-flow:column nowrap; margin:20px; }
+main #all_brands .contents a img  {width:320px;}
 main #all_brands .contents a .brand_name  {}
 main #all_brands .contents a span  {}

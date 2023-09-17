@@ -1,0 +1,44 @@
+/* main */
+main {width:100%;}
+/* top 배너 */
+main #top_bnr {
+    height:500px;
+    background:url(../images/business_top_bnr.jpg) center center no-repeat; 
+}
+main #top_bnr h1 {
+    text-align:center; line-height:500px;
+    color: #FFF; font-size: 3.5rem; font-weight: 700; text-shadow: 0px 5px 1px rgba(0, 0, 0, 0.40);}
+/* 카테고리 영역 */
+main #category {margin-top:50px;}
+main #category .tab_title {width:1300px; height:80px; margin:0 auto; display:flex; justify-content:center; align-items:center;}
+main #category .tab_title a {font-size:1.33rem; font-weight: 700; padding:20px 35px; display:inline-block; background: #fff; border-bottom:1px solid #888;}
+main #category .tab_title .active {border:1px solid #888; border-bottom:1px solid #fff; border-top:10px solid #ff0000;}
+main #category .tab_contents {}
+main #category .tab_contents .tab_c1 {}
+main #category .tab_contents .tab_c1 h2 {text-align:center; font-size:1.77rem; line-height:45px; margin:80px 0 100px;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap {}
+/* 공통영역 */
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div {display:flex; flex-flow:row nowrap; justify-content:center; }
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .img {width:50%; }
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .img img {width:100%;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .txt {width:50%; display:block; transform:translate(10%, 15%);}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .txt h3 {font-size:2.1rem; font-weight:700; line-height:50px;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .txt p {font-size:1.5rem; margin:30px 0; line-height:40px;}
+/* txt 왼쪽 배너 */
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left .txt {color:#222;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left .txt h3 {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left .txt p {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left .txt a {transition:all 0.5s;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left .txt a:hover {background:#888;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left .img {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .left .img img {}
+/* txt 오른쪽 배너 */
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right {background:#bf0000;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right .txt {color:#fff;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right .txt h3 {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right .txt p {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right .txt a {transition:all 0.5s;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right .txt a:hover {background:#bf0000; color:#fff;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right .img {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap .right .img img {}

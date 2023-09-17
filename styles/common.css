@@ -61,8 +61,8 @@ footer .btm .info a:last-child:after {display:none;}
 * .view_more_btn img {width:15px; height:15px; margin-left:10px;}
 * .w_r {background: #fff; color:#bf0000;}
 * .w_b {background: #fff; color:#222; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);}
-
-
+* .b_w {background: #222; color:#fff; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);}
+* .r_w {background: #bf0000; color:#fff; }
 /* 반응형 */
 @media screen and (max-width:1192px) {
     header {
