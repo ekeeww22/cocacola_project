@@ -11,10 +11,19 @@ main #top_bnr h1 {
 /* 카테고리 영역 */
 main #category {margin-top:50px;}
 main #category .tab_title {width:1300px; height:80px; margin:0 auto; display:flex; justify-content:center; align-items:center;}
-main #category .tab_title a {font-size:1.33rem; font-weight: 700; padding:20px 35px; display:inline-block; background: #fff; border-bottom:1px solid #888;}
+main #category .tab_title a {font-size:1.2rem; font-weight: 700; padding:20px 35px; display:inline-block; background: #fff; border-bottom:1px solid #888;}
 main #category .tab_title .active {border:1px solid #888; border-bottom:1px solid #fff; border-top:10px solid #ff0000;}
-main #category .tab_contents {}
+main #category .tab_contents {margin-bottom:100px;}
 main #category .tab_contents .tab_c1 {}
-main #category .tab_contents .tab_c1 h2 {}
-main #category .tab_contents .tab_c1 h2 em {}
-main #category .tab_contents .tab_c1 {}
+main #category .tab_contents .tab_c1 h2 {text-align:center; font-size:1.5rem; line-height:45px; margin:80px 0 100px;}
+main #category .tab_contents .tab_c1 h2 em {font-size:1.5rem; font-weight: 700;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap {
+    max-width: 1200px; margin:0 auto;
+    display:flex; flex-flow:row wrap; justify-content:space-between; }
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .img {position: relative;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .img img {}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .img a {position:absolute; bottom:30px; right:30px; transition:all 0.5s;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div .img a:hover {background:#ffffff; color:#bf0000;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div h3 {font-size:1.77rem; font-weight: 700; margin:30px 0;}
+main #category .tab_contents .tab_c1 .c1_bnr_wrap div p {font-size:1.33rem; line-height: 35px; margin-bottom:30px;}
