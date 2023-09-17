@@ -4,7 +4,7 @@ main {width:100%;}
 /* top 배너 */
 main #top_bnr {
     max-height:500px;
-    background:url(../images/company_top_bnr.jpg) no-repeat; background-size:cover;
+    background:url(../images/brands_top_bnr.png) no-repeat; background-size:cover;
 }
 main #top_bnr h1 {
     text-align:center; line-height:500px;

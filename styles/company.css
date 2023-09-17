@@ -3,7 +3,7 @@ main {width:100%;}
 /* top 배너 */
 main #top_bnr {
     height:500px;
-    background:url(../images/company_top_bnr.jpg) no-repeat;
+    background:url(../images/company_top_bnr.jpg) no-repeat; background-size:cover;
 }
 main #top_bnr h1 {
     text-align:center; line-height:500px;
