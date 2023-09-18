@@ -66,9 +66,10 @@ main #intro .left .bg_20 {background-image:url(../images/bg_20.png); }
 main #intro .right {display:flex; flex-flow:column nowrap; align-items: flex-start; }
 main #intro .right img {height:360px;}
 main #intro .right > span {font-size:1.33rem; text-decoration-line: underline; margin:30px 0;}
-main #intro .right .more_btn {padding:15px; display:flex; align-items:center; display:inline-block; background: #fff; color:#222; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);}
-main #intro .right .more_btn  span {font-size: 1.3125rem; font-weight: 700;}
-main #intro .right .more_btn  img {width:15px; height:15px; margin-left:10px;}
+main #intro .right .more_btn {padding:15px; display:flex; align-items:center; display:inline-block; background: #fff; color:#222; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4); transition:all 0.5s;}
+main #intro .right .more_btn:hover {background: #ff0000;}
+main #intro .right .more_btn span {font-size: 1.3125rem; font-weight: 700;}
+main #intro .right .more_btn img {width:15px; height:15px; margin-left:10px;}
 
 /* 브랜드 전체보기 */
 main #all_brands  {}
@@ -76,6 +77,7 @@ main #all_brands .title {height:45px; background:url(../images/brand_bg.png) no-
 main #all_brands .title p { font-size:1.77rem; font-weight: 700; position: relative; top:30px; left:20px;}
 main #all_brands .contents  {display:flex; flex-flow:row wrap;  justify-content:space-around; margin:50px 0 100px;}
 main #all_brands .contents a  {width:320px; display:flex; flex-flow:column nowrap; margin:20px; }
-main #all_brands .contents a img  {width:320px;}
-main #all_brands .contents a .brand_name  {}
-main #all_brands .contents a span  {}
+main #all_brands .contents a:hover img {transform: translateY(-20px);}
+main #all_brands .contents a img  {width:320px; transition:all 0.5s;}
+main #all_brands .contents a .brand_name  {font-size:1.33rem; font-weight:600;}
+main #all_brands .contents a span  {line-height:25px; margin-top:20px;}

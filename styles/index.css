@@ -32,7 +32,7 @@ main #main #main_1 .txt_l p {color:#fff; margin-bottom:30px;}
 main #main #main_1 .txt_l a {border:1px solid #fff;  color:#fff; transition:all 0.5s;}
 main #main #main_1 .txt_l a:hover {background:#fff; color:#222;}
 main #main #main_1 .txt_l a img {}
-main #main #main_1 video {width:100%; position:absolute; top:0; left:50%; transform:translateX(-50%);} 
+main #main #main_1 video {width:100%; position:absolute; top:0; left:50%; transform:translateX(-50%); background-size:cover;} 
 /* main 2 */
 main #main #main_2 {background:url(../images/main2_bnr.jpg) no-repeat; background-size:cover;}
 main #main #main_2 .txt_l {display:flex; flex-flow:column nowrap; align-items: flex-end; padding-right:10%;}
