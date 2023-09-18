@@ -29,7 +29,8 @@ main #main #main_1 .txt_l {width:100%; position:absolute; z-index: 888; bottom:1
 main #main #main_1 .txt_l h1 {}
 main #main #main_1 .txt_l h1 img {}
 main #main #main_1 .txt_l p {color:#fff; margin-bottom:30px;}
-main #main #main_1 .txt_l a {border:1px solid #fff;  color:#fff; }
+main #main #main_1 .txt_l a {border:1px solid #fff;  color:#fff; transition:all 0.5s;}
+main #main #main_1 .txt_l a:hover {background:#fff; color:#222;}
 main #main #main_1 .txt_l a img {}
 main #main #main_1 video {width:100%; position:absolute; top:0; left:50%; transform:translateX(-50%);} 
 /* main 2 */
@@ -38,7 +39,8 @@ main #main #main_2 .txt_l {display:flex; flex-flow:column nowrap; align-items: f
 main #main #main_2 .txt_l {color:#fff;}
 main #main #main_2 .txt_l h1 {}
 main #main #main_2 .txt_l p {margin:30px 0; font-size: 1.75rem; line-height:45px;}
-main #main #main_2 .txt_l a {color:#bf0000;}
+main #main #main_2 .txt_l a {color:#bf0000; transition:all 0.5s;}
+main #main #main_2 .txt_l a:hover {background: #bf0000; color:#fff;}
 main #main #main_2 .txt_l a span {}
 main #main #main_2 .txt_l a img {}
 /* main 3 */
@@ -52,7 +54,8 @@ main #main #main_3 .main_3_bg .main_3_img img {width:80%;}
 main #main #main_3 .main_3_bg .txt_l { width:70%; }
 main #main #main_3 .main_3_bg .txt_l h1 {}
 main #main #main_3 .main_3_bg .txt_l p {margin:30px 0;}
-main #main #main_3 .main_3_bg .txt_l a {}
+main #main #main_3 .main_3_bg .txt_l a {transition:all 0.5s;}
+main #main #main_3 .main_3_bg .txt_l a:hover {background:#999;}
 main #main #main_3 .main_3_bg .txt_l a span {}
 main #main #main_3 .main_3_bg .txt_l a img {}
 /* main 4 공통 */
@@ -63,7 +66,8 @@ main #main #main_4 .main_4_bnr_wrap ul li {}
 main #main #main_4 .main_4_bnr_wrap ul li .txt_m {}
 main #main #main_4 .main_4_bnr_wrap ul li .txt_m h2 {}
 main #main #main_4 .main_4_bnr_wrap ul li .txt_m p {margin:20px 0;}
-main #main #main_4 .main_4_bnr_wrap ul li .txt_m a {}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m a {transition:all 0.5s;}
+main #main #main_4 .main_4_bnr_wrap ul li .txt_m a:hover {background:#999;}
 main #main #main_4 .main_4_bnr_wrap ul li .txt_m a span {}
 main #main #main_4 .main_4_bnr_wrap ul li .txt_m a img {}
 /* main 4 개별 */
@@ -71,7 +75,8 @@ main #main #main_4 .main_4_bnr_wrap ul li {
     background-repeat:no-repeat; background-size:cover; 
     width:50%; height:50vh;
 }
-main #main #main_4 .main_4_bnr_wrap ul .main_4_1 {background-image:url(../images/food_bnr.jpg);}
+main #main #main_4 .main_4_bnr_wrap ul .main_4_1 {background-image:url(../images/food_bnr.jpg); }
+main #main #main_4 .main_4_bnr_wrap ul .main_4_1:hover {}
 main #main #main_4 .main_4_bnr_wrap ul .main_4_2 {background-image:url(../images/zero_bnr.jpg);}
 main #main #main_4 .main_4_bnr_wrap ul .main_4_3 {background-image:url(../images/recipe_bnr2-1.jpg);}
 main #main #main_4 .main_4_bnr_wrap ul .main_4_4 {background-image:url(../images/sports_bnr2-2.jpg);}
@@ -85,14 +90,16 @@ main #main #main_5 .top {height:50vh; background:url(../images/main5_top_bnr.jpg
 main #main #main_5 .top .txt_m {color:#fff; padding:10% 0 0 10%; }
 main #main #main_5 .top .txt_m h2 {text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);}
 main #main #main_5 .top .txt_m p {margin:30px 0; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75); }
-main #main #main_5 .top .txt_m a {}
+main #main #main_5 .top .txt_m a {transition:all 0.5s;}
+main #main #main_5 .top .txt_m a:hover {background: #bf0000; color:#fff;}
 main #main #main_5 .top .txt_m a span {}
 main #main #main_5 .top .txt_m a img {}
 main #main #main_5 .btm {height:60vh; background: #D10F0F;}
 main #main #main_5 .btm ul {display:flex; flex-flow:row wrap; justify-content:center; padding-top:80px; }
 main #main #main_5 .btm ul li {}
 main #main #main_5 .btm ul li a {}
-main #main #main_5 .btm ul li a img {width:320px; height:320px;}
+main #main #main_5 .btm ul li a:hover img {transform:scale(1.1);}
+main #main #main_5 .btm ul li a img {width:320px; height:320px; transition:transform 0.5s;}
 
 /* 반응형 */
 @media screen and (max-width:1254px) {
