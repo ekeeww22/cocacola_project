@@ -1,6 +1,6 @@
 
 /* main */
-main {}
+main {min-width:1600px;}
 main #main {}
 main #main .section {width:100%; height:100vh;}
 /* main 공통 영역 */
@@ -105,7 +105,12 @@ main #main #main_5 .btm ul li a img {width:320px; height:320px; transition:trans
 @media screen and (max-width:1254px) {
     main #main .section .txt_l h1 {font-size: 2.222rem; font-weight: 700; line-height:55px;}
     main #main .section .txt_l p {font-size: 1.33rem; line-height:35px;}
+    main #main #main_4 .main_4_bnr_wrap ul li {
+        background-repeat:no-repeat; background-size:cover; 
+        width:50%; height:50vh; 
+    }
 }
+
 
 @media screen and (max-width:972px) {
     main #main .section .txt_l h1 {font-size: 1.77rem; line-height:45px; font-weight: 700;}
